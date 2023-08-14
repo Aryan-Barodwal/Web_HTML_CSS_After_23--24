@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID GYM</title>
+    <link rel="icon" href="img/logo.png">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<style>
+    /* CSS Reset  */
+    * {
+        /* margin: 0px; */
+        /* padding: 0px; */
+        /* box-sizing: border-box; */
+        /* width: 10px; */
+    }
+
+
+    body {
+        color: rgb(175 69 68);
+
+        margin: 0px;
+        padding: 0px;
+
+        
+        box-sizing: border-box;
+        background: url('img/bg.jpg');
+
+        background-size: cover;
+
+        background-repeat: no-repeat;
+
+        overflow-x: hidden;
+    }
+
+    .left {
+        display: inline-block;
+        border: 2px solid rgb(235, 60, 60);
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        border: none;
+        margin: 0px;
+
+
+    }
+
+    .mid {
+        /* display: inline-block; */
+        display: block;
+        width: 83%;
+        margin: 42px auto;
+
+        border: 2px solid rgb(146, 152, 240);
+        border: none;
+
+    }
+
+    .right {
+        display: inline-block;
+
+        position: absolute;
+        right: 11px;
+        top: 20px;
+
+        /* border: 2px solid rgb(228, 232, 240); */
+        border-width: 10px;
+        border-radius: 13px;
+
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+        border: none;
+
+    }
+
+    .navbar li {
+        font-size: 18px;
+        display: inline-block;
+        list-style: none;
+
+
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: rgb(15, 14, 14);
+        padding: 4px 8px;
+
+
+
+    }
+
+    .navbar li a:hover {
+        color: rgb(3, 122, 3);
+        text-decoration: underline;
+    }
+
+    .left img {
+
+        width: 96px;
+        border-radius: 4px;
+
+    }
+
+    .left div {
+        color: black;
+        margin: 14px;
+    }
+
+    .container {
+        margin: 144px 129px;
+        /* padding: 57px 290px; */
+        width: 100%;
+        border: 2px solid black;
+        border: none;
+    }
+
+
+    /* .container h1{/ */
+    /* color: black;
+        width: 20px;
+        padding: 20px;
+        margin: 20px; */
+
+    .container .bhot {
+        font-size: 58px;
+        color: #040404;
+    }
+
+    .container .accent {
+        font-size: 58px;
+        color: #da1515;
+    }
+
+    .container .rya {
+        font-size: 58px;
+        color: #f80808;
+    }
+
+
+    .container .last .btn {
+        width: 130px;
+        height: 40px;
+    }
+
+    .btan {
+        border: 2px solid rgb(56, 236, 56);
+        background-color: rgb(56, 236, 56);
+        border-radius: 41px;
+        width: 130px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .btan:hover {
+        
+        background-color: black;
+        color: rgb(56, 236, 56);
+        
+        };
+    
+
+    .btnnn {
+        border: 2px solid rgb(56, 236, 56);
+        background-color: rgb(56, 236, 56);
+        border-radius: 41px;
+        width: 130px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .btnn:hover {
+        background-color: black;
+        color: rgb(56, 236, 56);
+    }
+
+    .last {
+        /* display: flex;
+        justify-content: center; */
+
+        margin: auto;
+        width: 10%;
+
+        /* position: fixed; */
+
+    }
+
+    .btn {
+        width: 143px;
+        height: 54px;
+        border: 2px solid rgb(56, 236, 56);
+        background-color: rgb(56, 236, 56);
+
+        border-radius: 41px;
+        cursor: pointer;
+
+
+        /* text-align: center; */
+
+    }
+
+    .btn:hover {
+        color: rgb(56, 236, 56);
+        background-color: #040404;
+    }
+
+    .cla {
+        border: 2px solid black;
+        text-align: center;
+        margin: 20px 20px;
+        position: absolute;
+        top: 318px;
+        left: 457px;
+        text-align: center;
+        display: block;
+        border: none;
+    }
+
+    .fir {
+        color: #0f0f0f;
+        /* height: 200px; */
+        /* text-size-adjust: 300px; */
+        font-size: 22px;
+        padding: -2px 27px;
+    }
+
+    .firr {
+        color: rgb(218 19 19);
+    }
+
+
+
+
+    /* aryan {
+        text-align: center;
+        white-space: pre-wrap;
+        transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+        transition-duration: 0.5s */
+    /* *{
+            display: inline;
+        } */
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- Left Box for Logo -->
+
+        <div class="left">
+            <img src="img/gym.png" alt="">
+            <div>Grid GYM</div>
+
+        </div>
+
+        <!-- Mid Box for navbar -->
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="https://www.grid-gym.com/personaltraining" target="_blank">Home</a></li>
+                <li><a href="https://www.grid-gym.com/about" target="_blank">About Us</a></li>
+                <li><a href="https://www.grid-gym.com/about" target="_blank">Fitness Calculator</a></li>
+                <li><a href="https://www.grid-gym.com/personaltraining" target="_blank">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- Right Box fo buttons -->
+        <div class="right">
+            <a href="https://www.grid-gym.com/contact-us" target="_blank"><button class="btan"> Call Us Now</button></a>
+            <a class="btnnn" href="https://www.grid-gym.com/contact-us" target="_blank"><button class="btnn"> Email Us </button></a>
+        </div>
+    </header>
+    <div class="container">
+        <!-- class= "aryan" style="text-align: center; white-space : pre-wrap;transition-timing-function:cubic-bezier(0.19,1 ,0.22,1);transition-duration: 0.5s;" class="preFlex flexin"> -->
+        <span class="bhot">
+            <strong>WANT TO FIND </strong>
+        </span>
+        <span class="accent">
+            <strong>YOUR POTENTIAL</strong>
+
+        </span>
+        <span class="rya">
+            <strong>?</strong>
+        </span>
+
+    </div>
+    <div class="cla">
+        <sapn class="fir">
+            <strong>You don’t have to be great </strong>
+            </span>
+            <span class="firr">
+                <strong>to start</strong>
+            </span>
+            <div class="fir">
+                <strong>Do have to start to be great.</strong>
+            </div>
+
+
+    </div>
+    <div class="last">
+        <a href="https://www.grid-gym.com/30day-trial" target="_blank"><button class="btn">GET STARTED</button></a>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
