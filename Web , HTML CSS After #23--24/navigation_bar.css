@@ -1,0 +1,108 @@
+.navbar {
+   background-color: rgb(184, 184, 238);
+   padding: 1px;
+   
+}
+.navbar ul{
+   list-style: none;         /* remove bullets from text */
+}
+
+.navbar li a {
+
+   text-decoration: none;    /* /*    by this we an remove the underline of text    */ 
+   float: left;
+   padding: 11px 13px; 
+   margin: auto;
+   width: 100px;
+}
+
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ /* .navbar{
+    
+    color: rgb(13, 244, 244);
+    
+}
+ .navbar ul{
+    overflow: auto;
+    background-color: #303ec7;
+    /* padding: 2px 22px; */
+    /* border-radius: 20px;  */
+ 
+    
+
+
+ /*.navbar ul li a{
+    list-style: none;
+    padding: 12px;
+    float: left;
+    cursor: pointer;
+} 
+ .navbar ul li a:hover{
+    /* background-color: rgb(217, 120, 79); */
+
+
+
+
+ 

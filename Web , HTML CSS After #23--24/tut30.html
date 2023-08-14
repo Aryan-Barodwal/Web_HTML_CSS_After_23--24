@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Querys!</title>
+    <style>
+        /* .container{
+            border: 2px solid black;
+            /* align-items: center;
+            justify-content: center; 
+            display: block;
+
+        } */
+        .box {
+            font-size: 40px;
+            text-align: center;
+            background-color: rgb(244, 32, 32);
+            color: rgb(245, 244, 244);
+
+
+            display: none;
+
+        }
+
+        @media only screen and (max-width:300px){
+            #box1 {
+                display: block;
+                background-color: rgb(47, 120, 255);
+                color: white;
+            }
+        }
+
+         @media only screen and (min-width:300px) and (max-width:500px) {
+            #box2 {
+                display: block;
+                background-color: rgb(134, 225, 195);
+                color: rgb(16, 16, 15);
+            }
+        }
+
+        @media only screen and (min-width:500px) and (max-width:800px) {
+            #box3 {
+                display: block;
+                background-color: rgb(201, 84, 41);
+            }
+        }
+
+        @media only screen and (min-width:800px){
+            #box4 {
+                display: block;
+                background-color: rgb(2, 2, 88);
+                color: aliceblue;
+            }
+        } 
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">iphone</div>
+        <div class="box" id="box2">Tablet</div>
+        <div class="box" id="box3">ipad</div>
+        <div class="box" id="box4">computer</div>
+    </div>
+    <img src="https://www.wallpapertip.com/wmimgs/8-82164_soothing-background.jpg" >
+
+
+
+</body>
+
+</html>

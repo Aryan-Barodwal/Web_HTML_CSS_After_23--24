@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Size Units </title>
+    <style>
+        * {
+            /* overflow-x: hidden; */
+            /* display: flex; */
+            content: none;
+            justify-content: center;
+
+        }
+
+        html {
+            font-size: 20px;
+
+            /* margin: 4px;
+            padding: 2px; */
+        }
+
+        .container {
+            /* width: 400px ; */
+            /* height: 500px ; */
+
+            display: flex;
+            width: 50vw;
+            height: 50vh;
+
+            font-size: 20px;
+            /* flex-wrap: wrap; */
+            border: 4px solid rgb(251, 128, 128);
+            box-shadow: 10px 5px 5px rgb(244, 200, 200);
+            /* box-shadow: none; */
+            box-decoration-break: slice;
+            /* display: inline; */
+
+
+
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        #First {
+            content: none;
+            /* font-size: 20px; */
+            /* *10 ho jayega parent ko dekh kar ( parent which is "font-size: 4px;" )  */
+            /* padding: 3em; */
+        }
+
+        #Second {
+            content: none;
+            /* font-size: 10rem; 
+             margin: 4em;
+            padding: 8rem;  */
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1></h1> -->
+    <div class="container">
+        <h3 id="First">This is Heading!!</h3>
+        <h3 id="Second">This is Second Heading!!</h3>
+        <h3 id="Third">This is third Heading!!</h3>
+    </div>
+
+
+</body>
+
+</html>

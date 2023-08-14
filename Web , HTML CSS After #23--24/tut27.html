@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>visibiity and z-index</title>
+
+</head>
+
+<!-- <link rel="stylesheet" href="tut26_style.css"> -->
+<style>
+   /* CSS Reset  */
+   .box {
+      width: 180px;
+      height: 170px;
+      border: 2px solid black;
+   }
+
+   /* __________________________________________________________________________________________________________________________ */
+
+   #box1 {
+      background-color: rgb(225, 144, 38);
+      position: relative;
+      top: 32px;
+      z-index: 39;
+   }
+
+   #box2 {
+      position: relative;
+      top: 14px;
+      background-color: rgb(223, 219, 237);
+      z-index: 30;
+   }
+
+   /* _________________________________________________________________________________________________________________________  */
+
+   /*  z-index will work only for positions  : static, relative, absolute, fixed or sticky  */
+
+   /* display: none;    /*  will hide the element and the space */
+   /* visibility: hidden;   /*  will hide the element and show its empty space */
+
+
+
+   /* #box3{
+        background-color: rgb(51, 162, 241);
+     }                       
+     #box4{
+        background-color: rgb(64, 241, 28);
+     } */
+
+
+
+
+   .container::first-line {
+
+      font-size: 25px;
+      color: #257763;
+
+   }
+</style>
+
+<body>
+   <div class="box" id="box1">This is first block!!!</div>
+   <div class="box" id="box2">This is second block!!!</div>
+   <!--<div class="box" id="box3">This is Third block!!!</div>
+    <div class="box" id="box4">This is forth block!!!</div> -->
+
+
+
+
+
+   <div>
+      <h1>This is Heading !!</h1>
+      <p class="container">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aperiam saepe quibusdam laudantium soluta
+         quia reprehenderit, optio aspernatur commodi quis at quo suscipit ipsam vel temporibus. Veritatis facilis nam
+         tempore?
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi exercitationem vel, repellat soluta consequuntur
+         dolorum laboriosam quod nobis ut repellendus dolores natus quo odit magnam libero assumenda modi id et! Saepe
+         doloribus illo maxime molestias possimus corrupti accusantium rem sunt, minus sequi veniam, impedit perferendis
+         cum aperiam quae, ad nisi!
+      </p>
+   </div>
+
+
+
+</body>
+
+</html>
